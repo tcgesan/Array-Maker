@@ -164,6 +164,7 @@ h2 {
     height: 2.4rem;
     font-size: 14px;
     border: none;
+    font-family: ip;
     border-radius: 50px;
 color: black;
 box-shadow: 05px 10px 10px rgba(198, 188, 145, 0.877);
@@ -175,6 +176,7 @@ box-shadow: 05px 10px 10px rgba(198, 188, 145, 0.877);
     height: 2.4rem;
     font-size: 14px;
     border: none;
+    font-family: ip;
     border-radius: 50px;
 box-shadow: 05px 10px 10px rgba(244, 168, 168, 0.681);
     background: linear-gradient(135deg,red,rgb(240, 131, 131));
@@ -202,26 +204,32 @@ label{
     height: 3rem;
 }
 #questionInput{
+    font-family: op;
     border-radius: 5px;
-    border: 2px solid rgb(249, 208, 219);
+    border: 2px solid rgb(182, 207, 252);
 }
 #option1{
     border-radius: 50px;
+    font-family: op;
 }
 
 #option2{
     border-radius: 50px;
+    font-family: op;
 }
 
 #option3{
     border-radius: 50px;
+    font-family: op;
 }
 
 #option4{
     border-radius: 50px;
+    font-family: op;
 }
 #answerInput{
     width: 50%;
+    font-family: op;
     margin-top: 10%;
     border-radius: 10px;
     border: 2px solid rgb(246, 166, 199);
