@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    user-select: none;
     padding: 0;
 }
 
@@ -9,7 +10,7 @@
 /* Base Styles */
  body {
     font-family: Arial, sans-serif;
-    background: #ffffff;
+    background:linear-gradient(130deg,rgba(231, 244, 248, 0.438),rgb(255, 255, 255));
     color: #333;
     display: flex;
     justify-content: center;
@@ -39,7 +40,8 @@ input[type="number"] {
     margin-top: 5%;
     margin: 17px 0;
     border-radius: 4px;
-    border: 1px solid #ddd;
+    border: none;
+    box-shadow: 0px 0px 15px rgb(224, 224, 227);
     font-size: 16px;
     box-sizing: border-box;
 }
@@ -206,7 +208,7 @@ label{
 #questionInput{
     font-family: op;
     border-radius: 5px;
-    border: 2px solid rgb(182, 207, 252);
+    border: 2px solid rgba(42, 70, 182, 0.196);
 }
 #option1{
     border-radius: 50px;
@@ -228,10 +230,10 @@ label{
     font-family: op;
 }
 #answerInput{
-    width: 50%;
+    width: 40%;
     font-family: op;
     margin-top: 10%;
-    border-radius: 10px;
-    border: 2px solid rgb(246, 166, 199);
+    border-radius: 010px;
+    border: 2px solid rgba(170, 31, 87, 0.225);
 }
 
