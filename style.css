@@ -9,7 +9,7 @@
 /* Base Styles */
  body {
     font-family: Arial, sans-serif;
-    background: #f4f7fa;
+    background: #ffffff;
     color: #333;
     display: flex;
     justify-content: center;
@@ -27,11 +27,8 @@ h1 {
 }
 
 form {
-    background: #fff;
-    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 85%;
+    width: 100%;
     margin-bottom: 30px;
 }
 
@@ -108,13 +105,11 @@ h2 {
     }
 
     form {
-        padding: 15px;
-        width: 90%;
+        width: 100%;
         margin-bottom: 20px;
     }
 
     button {
-        padding: 10px;
         font-size: 14px;
     }
 
@@ -125,7 +120,7 @@ h2 {
 
     #dataDisplay {
         padding: 12px;
-        width: 80%;
+        width: 90%;
         font-family: op;
         font-size: 14px;
     }
@@ -201,4 +196,32 @@ label{
     border: none;
     border-radius: 40px;
     height: 3rem;
+}
+#questionInput{
+    border-radius: 5px;
+    border: 2px solid rgb(249, 208, 219);
+}
+#option1{
+    border-radius: 50px;
+    border: 2px solid rgb(199, 199, 239);
+}
+
+#option2{
+    border-radius: 50px;
+    border: 2px solid rgb(240, 184, 220);
+}
+
+#option3{
+    border-radius: 50px;
+    border: 2px solid rgb(224, 179, 243);
+}
+
+#option4{
+    border-radius: 50px;
+    border: 2px solid rgb(166, 223, 246);
+}
+#answerInput{
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid rgb(246, 166, 199);
 }
