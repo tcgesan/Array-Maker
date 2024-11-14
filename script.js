@@ -1,4 +1,4 @@
-  // Load existing questions from Local Storage or initialize an empty array
+    // Load existing questions from Local Storage or initialize an empty array
         let questions = JSON.parse(localStorage.getItem("questions")) || [];
 
         // Function to add a question to the array
@@ -25,15 +25,14 @@
         }
 
         // Function to display data in the <pre> tag in desired format
-function displayData() {
-    const formattedData = questions.map((q, index) => `{
+        function displayData() {
+            const formattedData = questions.map(q => `{
     question: "${q.question}",
     options: ${JSON.stringify(q.options)},
     answer: ${q.answer} 
-}${index < questions.length - 1 ? ',' : ''}`).join('\n\n');
-    
-    document.getElementById("dataDisplay").textContent = formattedData;
-}
+}`).join('\n\n');
+            document.getElementById("dataDisplay").textContent = formattedData;
+        }
 
         // Function to copy data to clipboard
         function copyData() {
@@ -58,7 +57,5 @@ function displayData() {
 
         // Initial display of data from Local Storage
         displayData();
-
-
 
     
