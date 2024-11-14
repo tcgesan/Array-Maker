@@ -25,14 +25,15 @@
         }
 
         // Function to display data in the <pre> tag in desired format
-        function displayData() {
-            const formattedData = questions.map(q => `{
+function displayData() {
+    const formattedData = questions.map((q, index) => `{
     question: "${q.question}",
     options: ${JSON.stringify(q.options)},
     answer: ${q.answer} 
-}`).join('\n\n');
-            document.getElementById("dataDisplay").textContent = formattedData;
-        }
+}${index < questions.length - 1 ? ',' : ''}`).join('\n\n');
+    
+    document.getElementById("dataDisplay").textContent = formattedData;
+}
 
         // Function to copy data to clipboard
         function copyData() {
