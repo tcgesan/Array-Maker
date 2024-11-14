@@ -16,7 +16,7 @@
                 question: questionText,
                 options: options,
                 answer: answer
-            });
+            }),;
 
             localStorage.setItem("questions", JSON.stringify(questions));
 
@@ -30,7 +30,7 @@
     question: "${q.question}",
     options: ${JSON.stringify(q.options)},
     answer: ${q.answer} 
-},`).join('\n\n');
+}`).join('\n\n');
             document.getElementById("dataDisplay").textContent = formattedData;
         }
 
