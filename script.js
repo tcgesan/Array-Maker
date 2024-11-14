@@ -16,7 +16,7 @@
                 question: questionText,
                 options: options,
                 answer: answer
-            }),;
+            });
 
             localStorage.setItem("questions", JSON.stringify(questions));
 
